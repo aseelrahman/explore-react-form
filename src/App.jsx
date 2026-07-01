@@ -1,12 +1,13 @@
 import "./App.css";
-import SimpleForm from "./assets/Components/SimpleForm/SimpleForm";
+// import FormAction from "./Components/FormAction/FormAction";
+// import SimpleForm from "./Components/SimpleForm/SimpleForm";
 
 function App() {
   return (
     <>
       <h1>Explore react form</h1>
-      <SimpleForm />
-      
+      {/* <SimpleForm /> */}
+      {/* <FormAction /> */}
     </>
   );
 }
