@@ -1,11 +1,11 @@
 import Special from "./Special";
 
 
-const Myself = () => {
+const Myself = ({asset}) => {
     return (
         <div>
             <h3>Myself</h3>
-            <Special />
+            <Special asset={asset} />
         </div>
     );
 };
